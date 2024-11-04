@@ -61,7 +61,7 @@ public class testAreas142 {
 
 //Área do Triângulo = Testar com Data-driven lendo um arquivo CSV
     @ParameterizedTest
-    @CsvFileSource(resources = "csv/massaTriangulo.csv", numLinesToSkip = 1, delimiter = ',')
+    @CsvFileSource(resources = "/csv/massaTriangulo.csv", numLinesToSkip = 1, delimiter = ',')
     public void testeTrianguloCSV(float baset, float alturat, float resultadoEsperado){
     //Configura - Os dados de entrada, saída e resultado esperado são lidos da massa de teste acima
         
